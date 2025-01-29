@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router'
 export function Footer() {
   return (
-    <div className='mt-8'>
+    <div className='h-full w-full'>
       <div className='w-full flex justify-between  bg-[url(/desing/footer/image1.png)] bg-repeat-round '>
-        <div className='w-[100%] flex justify-center gap-15 mb-7'>
+        <div className='w-[100%] flex justify-center text-[9px] md:text-[1rem] gap-2 md:gap-15 mb-7'>
           <ul className='flex flex-col'>
             <li className='font-semibold'>About</li>
             <li className='text-slate-400 mt-2'>Price</li>
@@ -33,7 +33,7 @@ export function Footer() {
             <li className='text-slate-400 mt-2'>Tech</li>
           </ul>
         </div>
-        <div className='w-[100%] flex flex-col mb-7'>
+        <div className='w-[100%] flex flex-col items-center text-[9px] md:text-[1rem] md:items-start mb-7'>
           <h2 className='font-semibold'>Follow Us</h2>
           <div className='flex gap-5 mt-4'>
             <span className='border rounded-xl flex items-center justify-center  w-6 h-6 cursor-pointer '>
@@ -47,22 +47,22 @@ export function Footer() {
               <svg viewBox="0 0 256 180" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z" fill="red" /><path fill="#FFF" d="m102.421 128.06 66.328-38.418-66.328-38.418z" /></svg>
             </span>
           </div>
-          <p className='mt-6'>Subscribe to our newsletter</p>
-          <div className='flex gap-4 bg-white rounded-xl shadow-lg w-[40%] mt-5'>
+          <p className=' mt-2 md:mt-6'>Subscribe to our newsletter</p>
+          <div className='flex items-center justify-center md:gap-4 bg-white rounded-xl shadow-lg w-[90%] md:w-[40%] mt-1 md:mt-5'>
             <span className="p-2" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-3">
               <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
               <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
             </svg>
             </span>
-            <input type="email" className="  w-[58%] outline-0" placeholder="Email" />
-            <button className='border rounded-xl flex items-center justify-center  w-6 h-6 cursor-pointer '> {">"} </button>
+            <input type="email" className=" md:w-[58%] outline-0" placeholder="Email" />
+            <button className='border rounded-xl flex items-center justify-center w-6 h-6 cursor-pointer '> {">"} </button>
           </div>
         </div>
       </div>
       <hr className='text-slate-400' />
-      <div className='flex justify-between mx-10 mb-5'>
-        <span className='text-slate-400 mt-2'>All riglis Reserved © <sulong>Your Company, 2025</sulong></span>
-        <span className='text-slate-400 mt-2'>Made wili ❤️ by <sulong>Guillermo Sangerman</sulong></span>
+      <div className='flex justify-between text-[9px] md:text-[1rem] mx-10 mb-5'>
+        <span className='text-slate-400 mt-2'>All riglis Reserved © <strong>Your Company, 2025</strong></span>
+        <span className='text-slate-400 mt-2'>Made wili ❤️ by <strong>Guillermo Sangerman</strong></span>
       </div>
     </div>
   )

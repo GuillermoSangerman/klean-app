@@ -4,7 +4,7 @@ export function Details() {
   return (
     <>
       <div className='w-full min-h-screen flex flex-col justify-center items-center bg-[url(/desing/3.details/illustration1.png)] bg-repeat-round '>
-        <div className='flex  gap-10 mt-14 w-[70%]  bg-[url(/desing/3.details/illustration1.png)] bg-no-repeat '>
+        <div className='flex  gap-10 mt-20 w-[70%]  bg-[url(/desing/3.details/illustration1.png)] bg-no-repeat '>
           <div>
             <img src="./desing/3.details/illustration3.png" alt="" />
           </div>

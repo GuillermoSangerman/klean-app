@@ -3,3 +3,47 @@
 .dropdown:hover .dropdown-menu {
     display: block;
   }
+
+  .move-rigth{
+    animation-play-state: running;
+    animation-duration: 4s;
+    animation-name: moveRight;
+  }
+  .move-left{
+    animation-play-state: running;
+    animation-duration: 6s;
+    animation-name: moveLeft;
+  }
+  .visibleAnimation{
+  animation-duration: 5s;
+  animation-name: intro;
+}
+
+/* linear-gradient(to right, #33ccff 62%, #ff99cc 100%); */
+/* keyframes */
+@keyframes intro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes moveRight {
+  from {
+    transform: translateX(100px);
+    
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes moveLeft {
+  from {
+    transform: translateX(0px);
+    
+  }
+  to {
+    transform: translateX(100px);
+  }
+}

@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router'
 export function Appbar() {
     return (
-        <header className='h-14 bg-cyan-100  flex justify-center px-6 items-center'>
-            <Link className='min-w-[15%] mt-2' > <img src="" alt="Logo Klean" /></Link>
-            <nav className='flex justify-between  min-w-[80%]'>
-                <ul className='flex gap-6'>
+        <header className='h-14 w-full bg-transparent shadow-lg flex flex-col md:flex-row  justify-center px-6 items-start md:items-center fixed '>
+            <Link className='w-[10%]  md:w-[15%] ' > <img src="https://themewagon.github.io/klean/v1.0.2/assets/img/gallery/logo.png" alt="Logo Klean" /></Link>
+            <nav className='flex md:justify-between md:items-center w-[100%]  text-[10px] md:text-[17px] md:w-[80%]'>
+                <ul className='flex gap-5'>
                     <li className='mt-2'>
                         <Link to={"/"} className='font-semibold hover:underline hover:text-indigo-800'>Home</Link>
                     </li>
@@ -69,9 +69,9 @@ export function Appbar() {
                         <Link to={"/contact"} className='font-semibold hover:underline hover:text-indigo-800'>Contact</Link>
                     </li>
                 </ul>
-                <div className='flex gap-4'>
+                <div className='flex gap-2 ms-5'>
                     <Link className='text-blue-700 mt-2'>Log in</Link>
-                    <Link className='bg-white rounded-md px-4 py-1 shadow-lg'><button>Sign Up</button></Link>
+                    <Link className='bg-white rounded-md px-2 md:px-4 py-1 shadow-lg md:mt-2'><button>Sign Up</button></Link>
                 </div>
             </nav>
         </header>

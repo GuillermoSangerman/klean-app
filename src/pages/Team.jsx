@@ -3,8 +3,8 @@ import React from 'react'
 export function Team() {
   return (
     <>
-      <div className='flex flex-col text-center items-center mt-5 w-full min-h-screen'>
-        <div className='w-full flex flex-col items-center'>
+      <div className='flex flex-col text-center items-center w-full min-h-screen'>
+        <div className='w-full flex flex-col items-center mt-20'>
           <h2 className='text-3xl font-semibold'>Our team</h2>
           <p className='w-[35%] mt-5 text-[13px]'>
             People from various origins, cultures, and personalities make up our team.

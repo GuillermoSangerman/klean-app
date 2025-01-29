@@ -4,7 +4,7 @@ export function Projects() {
   return (
     <>
       <div className='flex flex-col min-w-full min-h-screen items-center'>
-        <div className='flex flex-col items-center text-center mt-10'>
+        <div className='flex flex-col items-center text-center mt-20'>
           <h2 className='text-3xl font-semibold'>Our Projects</h2>
           <p className='mt-4 w-[65%]'>A project is a single or team activity, combining research and design with best
             effort. Here are some of our team´s projects.

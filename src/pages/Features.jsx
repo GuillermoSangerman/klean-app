@@ -4,7 +4,7 @@ export function Features() {
   return (
     <>
       <div className='w-full min-h-screen flex flex-col text-center items-center justify-center'>
-        <div className='mt-10 w-full flex flex-col items-center'>
+        <div className='mt-20 w-full flex flex-col items-center'>
           <h2 className='font-semibold text-4xl'>Features</h2>
           <p className='text-slate-400 mt-5 w-[45%]'>
           We provide a number of excellent features that will undoubtedly improve the user experience. 
