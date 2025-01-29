@@ -4,7 +4,7 @@ import { Main } from '../components/Main'
 export function Home() {
   return (
    <Main>
-         <div className='felx flex-col min-w-full'>
+         <div className='felx flex-col min-w-full  bg-[url(./themewagon/themewagon/background_elements.png)] bg-no-repeat '>
             <div className='flex  w-full justify-center items-center '>
                 <div className='flex flex-col min-w-[50%] ps-40'>
                     <h1 className='text-4xl'>Bootstrap 5 theme</h1>
