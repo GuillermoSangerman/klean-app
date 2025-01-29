@@ -3,8 +3,8 @@ import React from 'react'
 export function Details() {
   return (
     <>
-      <div className='w-full min-h-screen flex flex-col justify-center items-center bg-[url(./desing/3.details/illustration1.png)] bg-repeat-round '>
-        <div className='flex  gap-10 mt-14 w-[70%]  bg-[url(./desing/3.details/illustration1.png)] bg-no-repeat '>
+      <div className='w-full min-h-screen flex flex-col justify-center items-center bg-[url(/desing/3.details/illustration1.png)] bg-repeat-round '>
+        <div className='flex  gap-10 mt-14 w-[70%]  bg-[url(/desing/3.details/illustration1.png)] bg-no-repeat '>
           <div>
             <img src="./desing/3.details/illustration3.png" alt="" />
           </div>
@@ -22,7 +22,7 @@ export function Details() {
             <button className='mt-9 border rounded-xl w-[25%] h-8'>Read More</button>
           </div>
         </div>
-        <div className='flex  gap-10 mt-20 w-[70%] mb-8 bg-[url(./desing/3.details/illustration2.png)] bg-no-repeat '>
+        <div className='flex  gap-10 mt-20 w-[70%] mb-8 bg-[url(/desing/3.details/illustration2.png)] bg-no-repeat '>
           <div className='w-[77%]'>
             <h2 className='font-semibold text-4xl mt-16 w-[80%]'>Devoted to defining the cutting edge</h2>
             <p className='mt-8 text-slate-400 w-[90%]'>

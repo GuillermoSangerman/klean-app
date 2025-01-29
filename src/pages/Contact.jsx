@@ -6,7 +6,7 @@ export function Contact() {
         <h2 className='text-3xl font-semibold'>Contact Us</h2>
       </div>
 
-      <div className='flex items-center justify-end h-[100%] w-full bg-[url(./desing/7.contact/image1.png)] bg-repeat-round mt-14'>
+      <div className='flex items-center justify-end h-[100%] w-full bg-[url(/desing/7.contact/image1.png)] bg-repeat-round mt-14'>
         <form className='flex flex-col rounded-lg shadow-lg items-center h-[100%] w-[30%] bg-transparent'>
           <div className='flex gap-4 bg-white rounded-xl shadow-lg w-[80%] mt-5'>
             <span className="p-2" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">

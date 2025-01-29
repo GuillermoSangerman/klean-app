@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 export function Services() {
   return (
     <>
-      <div className='flex flex-col  bg-[url(./desing/2.services/illustration1.png)] bg-no-repeat justify-center items-center min-h-screen w-full'>
+      <div className='flex flex-col  bg-[url(/desing/2.services/illustration1.png)] bg-no-repeat justify-center items-center min-h-screen w-full'>
         <div className='flex flex-col justify-center items-center text-center my-20'>
           <h2 className='text-4xl font-bold'>Service</h2>
           <p className='mt-6 w-[60%] text-neutral-600'>
