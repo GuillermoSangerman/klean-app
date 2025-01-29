@@ -13,22 +13,22 @@ export function Team() {
         </div>
         <ul className='grid grid-cols-4 mt-5 w-[60%] gap-4'>
           <li> 
-            <img src="./themewagon/themewagon/6.team/image1.png" alt="" />
+            <img src="./desing/6.team/image1.png" alt="" />
             <h2>John Adams</h2>
             <p>CEO</p>
           </li>
           <li> 
-            <img src="./themewagon/themewagon/6.team/image2.png" alt="" />
+            <img src="./desing/6.team/image2.png" alt="" />
             <h2>Carrey Johnson</h2>
             <p>Senior Developer</p>
           </li>
           <li> 
-            <img src="./themewagon/themewagon/6.team/image3.png" alt="" />
+            <img src="./desing/6.team/image3.png" alt="" />
             <h2>Ray Marie</h2>
             <p>Developer</p>
           </li>
           <li> 
-            <img src="./themewagon/themewagon/6.team/image4.png" alt="" />
+            <img src="./desing/6.team/image4.png" alt="" />
             <h2>Autin Min</h2>
             <p>Designer</p>
           </li>

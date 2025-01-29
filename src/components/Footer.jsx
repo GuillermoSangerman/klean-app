@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 export function Footer() {
   return (
     <div className='mt-8'>
-      <div className='w-full flex justify-between  bg-[url(./themewagon/themewagon/footer/image1.png)] bg-repeat-round '>
+      <div className='w-full flex justify-between  bg-[url(./desing/footer/image1.png)] bg-repeat-round '>
         <div className='w-[100%] flex justify-center gap-15 mb-7'>
           <ul className='flex flex-col'>
             <li className='font-semibold'>About</li>

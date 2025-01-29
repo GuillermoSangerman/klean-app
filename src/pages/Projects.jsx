@@ -12,12 +12,12 @@ export function Projects() {
         </div>
         <div>
           <ul className='w-full min-h-screen shadow-lg p-5 rounded-2xl columns-3 gap-6 mt-20'>
-            <li className='rounded-lg'><img src="./themewagon/themewagon/5.projects/image1.png" alt="" /></li>
-            <li className='rounded-lg mt-5'><img src="./themewagon/themewagon/5.projects/image2.png" alt="" /></li>
-            <li className='rounded-lg' ><img src="./themewagon/themewagon/5.projects/image3.png" alt="" /></li>
-            <li className='rounded-lg mt-5' ><img src="./themewagon/themewagon/5.projects/image4.png" alt="" /></li>
-            <li className='rounded-lg' ><img src="./themewagon/themewagon/5.projects/image5.png" alt="" /></li>
-            <li className='rounded-lg mt-5'><img src="./themewagon/themewagon/5.projects/image6.png" alt="" /></li>
+            <li className='rounded-lg'><img src="./desing/5.projects/image1.png" alt="" /></li>
+            <li className='rounded-lg mt-5'><img src="./desing/5.projects/image2.png" alt="" /></li>
+            <li className='rounded-lg' ><img src="./desing/5.projects/image3.png" alt="" /></li>
+            <li className='rounded-lg mt-5' ><img src="./desing/5.projects/image4.png" alt="" /></li>
+            <li className='rounded-lg' ><img src="./desing/5.projects/image5.png" alt="" /></li>
+            <li className='rounded-lg mt-5'><img src="./desing/5.projects/image6.png" alt="" /></li>
           </ul>
         </div>
         <div>
