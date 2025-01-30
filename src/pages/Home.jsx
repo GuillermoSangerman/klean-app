@@ -12,8 +12,8 @@ export function Home() {
                     <h3 className='text-[14px] md:text-3xl mt-2'>crafted by <strong>ThemeWagon</strong></h3>
                     <p className='text-[10px] md:text-[1rem] mt-2'>ThemeWagon offers an wide array of category-oriented
                     Free and Premium Bootstrap HTML Templates and Themes.</p>
-                    <button className='flex ps-5 w-[30%] mt-5 rounded-md py-1 shadow-xl 
-                    bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white move-rigth'>
+                    <button className='flex ps-5 w-[25%] md:w-[30%] mt-5 rounded-md py-1 shadow-xl 
+                    bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white text-[9px] md:text-[1rem] move-rigth'>
                         Check Demo
                     </button>
                 </div>
