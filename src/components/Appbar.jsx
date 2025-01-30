@@ -71,7 +71,7 @@ export function Appbar() {
                 </ul>
                 <div className='flex gap-2 ms-5'>
                     <Link className='text-blue-700 mt-2'>Log in</Link>
-                    <Link className='bg-white rounded-md px-2 md:px-4 py-1 shadow-lg md:mt-2'><button>Sign Up</button></Link>
+                    <Link className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white rounded-md px-1 md:px-4 py-1 shadow-lg md:mt-2'><button>Sign Up</button></Link>
                 </div>
             </nav>
         </header>

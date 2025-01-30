@@ -60,7 +60,7 @@ export function Footer() {
         </div>
       </div>
       <hr className='text-slate-400' />
-      <div className='flex justify-between text-[9px] md:text-[1rem] mx-10 mb-5'>
+      <div className='flex justify-between text-[9px] md:text-[1rem] mx-6 mb-5'>
         <span className='text-slate-400 mt-2'>All riglis Reserved © <strong>Your Company, 2025</strong></span>
         <span className='text-slate-400 mt-2'>Made wili ❤️ by <strong>Guillermo Sangerman</strong></span>
       </div>
